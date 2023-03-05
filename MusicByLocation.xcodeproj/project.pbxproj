@@ -15,6 +15,7 @@
 		432BD4B529B202E000F1A30C /* MusicByLocationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432BD4B429B202E000F1A30C /* MusicByLocationUITests.swift */; };
 		432BD4B729B202E000F1A30C /* MusicByLocationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432BD4B629B202E000F1A30C /* MusicByLocationUITestsLaunchTests.swift */; };
 		432BD4C429B205B900F1A30C /* LocationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432BD4C329B205B900F1A30C /* LocationHandler.swift */; };
+		43E03AB929B52B3C001E75E5 /* CLPlacemark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E03AB829B52B3C001E75E5 /* CLPlacemark.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		432BD4B429B202E000F1A30C /* MusicByLocationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicByLocationUITests.swift; sourceTree = "<group>"; };
 		432BD4B629B202E000F1A30C /* MusicByLocationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicByLocationUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		432BD4C329B205B900F1A30C /* LocationHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationHandler.swift; sourceTree = "<group>"; };
+		43E03AB829B52B3C001E75E5 /* CLPlacemark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLPlacemark.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 		432BD49829B202DD00F1A30C /* MusicByLocation */ = {
 			isa = PBXGroup;
 			children = (
+				43E03AB829B52B3C001E75E5 /* CLPlacemark.swift */,
 				432BD49929B202DD00F1A30C /* MusicByLocationApp.swift */,
 				432BD49B29B202DD00F1A30C /* ContentView.swift */,
 				432BD49D29B202DF00F1A30C /* Assets.xcassets */,
@@ -263,6 +266,7 @@
 				432BD4C429B205B900F1A30C /* LocationHandler.swift in Sources */,
 				432BD49C29B202DD00F1A30C /* ContentView.swift in Sources */,
 				432BD49A29B202DD00F1A30C /* MusicByLocationApp.swift in Sources */,
+				43E03AB929B52B3C001E75E5 /* CLPlacemark.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +429,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"MusicByLocation/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -453,6 +458,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"MusicByLocation/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
